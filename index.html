@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h3>Current Player: <span id="currentPlayerDisp"></span></h3>
+    <table>
+      <tr>
+        <td id="cell1" onclick="handleCellClick(event)"></td>
+        <td
+          id="cell2"
+          onclick="handleCellClick(event)"
+          class="vertical-border"
+        ></td>
+        <td id="cell3" onclick="handleCellClick(event)"></td>
+      </tr>
+      <tr>
+        <td
+          id="cell4"
+          onclick="handleCellClick(event)"
+          class="horizontal-border"
+        ></td>
+        <td
+          id="cell5"
+          onclick="handleCellClick(event)"
+          class="horizontal-border vertical-border"
+        ></td>
+        <td
+          id="cell6"
+          onclick="handleCellClick(event)"
+          class="horizontal-border"
+        ></td>
+      </tr>
+      <tr>
+        <td id="cell7" onclick="handleCellClick(event)"></td>
+        <td
+          id="cell8"
+          onclick="handleCellClick(event)"
+          class="vertical-border"
+        ></td>
+        <td id="cell9" onclick="handleCellClick(event)"></td>
+      </tr>
+    </table>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
